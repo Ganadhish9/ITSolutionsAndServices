@@ -1,0 +1,38 @@
+.moving-banner {
+  background: var(--surface);
+  padding: 1.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border);
+  position: relative;
+  z-index: 5;
+}
+
+.banner-track {
+  display: flex;
+  white-space: nowrap;
+  gap: 3rem;
+  width: max-content;
+}
+
+.banner-item {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  letter-spacing: 0.1em;
+}
+
+.banner-item:hover {
+  color: var(--primary);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: var(--primary);
+  border-radius: 50%;
+}

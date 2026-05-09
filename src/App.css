@@ -1,0 +1,125 @@
+.app {
+  min-height: 100vh;
+}
+
+.courses-section {
+  padding: var(--section-padding) 1.5rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.section-title {
+  font-size: var(--font-h2);
+  font-weight: 800;
+  margin-bottom: var(--space-sm);
+}
+
+.section-desc {
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  gap: var(--space-lg);
+  align-items: stretch;
+}
+
+.cta-section {
+  padding: var(--section-padding) 0;
+}
+
+.cta-card {
+  padding: clamp(var(--space-lg), 8vw, var(--space-2xl));
+  border-radius: var(--radius-xl);
+  text-align: center;
+  border: 1px solid var(--glass-border);
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.8));
+}
+
+.cta-card h2 {
+  font-size: var(--font-h2);
+  margin-bottom: var(--space-sm);
+}
+
+.cta-card p {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+  margin-bottom: var(--space-lg);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-btns {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+@media (max-width: 768px) {
+  .cta-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta-btns .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.section-spacer {
+  height: var(--space-xl);
+}
+
+.course-card-wrapper {
+  height: 100%;
+  display: flex;
+}
+
+.course-card {
+  height: 100%;
+  width: 100%;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.feature-item {
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: var(--transition-normal);
+  border: 1px solid var(--glass-border);
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.feature-item h3 {
+  margin-bottom: var(--space-sm);
+  color: var(--text);
+}
+
+.feature-item p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
