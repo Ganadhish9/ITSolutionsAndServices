@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IT SOLUTIONS AND SERVICES - Online Course Platform
 
 A premium, highly interactive React application for an IT education provider.
@@ -38,3 +39,7 @@ A premium, highly interactive React application for an IT education provider.
 - `src/styles`: CSS modules and global design system.
 - `src/data`: Mock data for courses.
 - `src/App.jsx`: Main application assembly.
+=======
+# ITSolutionsAndServices
+All about website which provides it services
+>>>>>>> 705345959cad95796efa5d2e0a85228f797142fd
